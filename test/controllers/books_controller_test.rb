@@ -45,4 +45,15 @@ class BooksControllerTest < ActionDispatch::IntegrationTest
 
     assert_redirected_to books_url
   end
+
+  #Nuevos testing
+  test "shouldn't save without status" do
+    book = Book.new
+    assert_not book.save
+  end
+
+  test "shouldn't save without title" do
+    book = Book.new
+    assert_not book.save
+  end
 end
