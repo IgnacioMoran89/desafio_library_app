@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* heroku: https://milibraryappdesflat.herokuapp.com/books
+
+* Nota: me falló la branch, por eso hay tampocos commit. 
